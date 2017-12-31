@@ -1,0 +1,62 @@
+{
+  "name": "gotherator",
+  "version": "0.0.1",
+  "private": true,
+  "description": "[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)\r [![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)\r [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)\r # Gotherator [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) :skull::smiling_imp:",
+  "main": "index.js",
+  "engines": {
+    "node": "9.2.1",
+    "npm": "5.6.0"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "DEBUG=express-sequelize node index.js",
+    "test:standard": "standard && npm run test",
+    "test": "npm run test:unitonce && npm run test:integrationonce",
+    "test:unitonce": "cross-env NODE_ENV=test ./node_modules/.bin/mocha test/unit/*.test.js",
+    "test:integrationonce": "cross-env NODE_ENV=test ./node_modules/.bin/mocha test/integration/*.test.js",
+    "test:unit": "cross-env NODE_ENV=test nodemon --exec \"mocha test/unit/*.test.js\"",
+    "test:integration": "cross-env NODE_ENV=test nodemon --exec \"mocha test/integration/*.test.js\"",
+    "server": "cross-env NODE_ENV=development nodemon index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vapurrmaid/Gotherator.git"
+  },
+  "author": "Grey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vapurrmaid/Gotherator/issues"
+  },
+  "homepage": "https://github.com/vapurrmaid/Gotherator#readme",
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "cross-env": "^5.1.3",
+    "expect": "^22.0.3",
+    "mocha": "^4.1.0",
+    "node-mocks-http": "^1.6.6",
+    "nodemon": "^1.14.7",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cookie-session": "^2.0.0-beta.3",
+    "cors": "^2.8.4",
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0",
+    "pg": "^6.4.2",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.23.6",
+    "sequelize-cli": "^3.2.0",
+    "ws": "^3.3.3"
+  }
+}
