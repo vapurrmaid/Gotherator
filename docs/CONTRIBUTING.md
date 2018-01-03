@@ -128,7 +128,7 @@ The client and server run separately. In order to make this possible, `concurren
 - Run All Tests (server): `npm run test` This runs each test ONCE.
 - Unit Tests (server): `npm run test:unit` This uses nodemon watcher, allowing for TDD.
 - Integration Tests (Server): `npm run test:integration` This uses nodemone watcher, allowing for TDD
-- Development (Both): `npm run dev` This creates an express server on port 8080 and you can view the material on port 3000. It hot reloads any saved changes.
+- Development (Both): `npm run dev` This creates an express server on port 8081 and you can view the material on port 3000. It hot reloads any saved changes.
 
 ## Styleguides
 
