@@ -113,10 +113,12 @@ Here is a generic skeleton for `config/dev.js` which again is the same key mappi
 ``` javascript
 // dev.js - DO NOT COMMIT
 module.exports = {
-	googleClientID: '<get this from setting up google API>',
+	cookieKey: '<a super long random string>', // this is used to encrypt cookies via express-session module
+	fbClientID: '<get this from setting up fb API>', /** @see {@link https://developers.facebook.com} */
+	fbClientSecret: '<get this from setting up fb API>',
+	googleClientID: '<get this from setting up google API>', /** @see {@link https://https://console.developers.google.com} */
 	googleClientSecret: '<get this from setting up google API>',
-	cookieKey: '<any random string>',          // this is used to serialize/deserialize cookies
-	secret: '<a super long randomized string>' // this is used to encrypt passwords
+	secret: '<a super long random string>' // used by bcrypt library for encrypting data
 };
 ```
 #### Running Tests or Development
