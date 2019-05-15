@@ -1,9 +1,0 @@
-# dependencies
-node_modules
-
-# keys
-config
-config/config.js
-dev.js
-local.js
-prod.js
