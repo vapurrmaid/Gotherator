@@ -1,0 +1,3 @@
+export ASPNETCORE_Environment=Development
+dotnet build
+dotnet run
