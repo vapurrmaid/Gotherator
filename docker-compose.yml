@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+
+  words-service:
+    build:
+      context: './src/Services/Words'
+      dockerfile: Dockerfile
+    command: npm run dev
+    container_name: words-service
+    ports:
+      - '3001:80'
+    restart: unless-stopped
+    volumes:
+      - './src/Services/Words:/usr/src/app'
+      - '/usr/src/app/node_modules'

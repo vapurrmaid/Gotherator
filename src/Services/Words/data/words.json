@@ -1,0 +1,1476 @@
+{
+  "adjectives": {
+    "anachronistic": {
+      "archetypes": [
+        "mystical",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "angry": {
+      "archetypes": [
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "batty": {
+      "archetypes": [
+        "mystical",
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [
+        "iest"
+      ],
+      "connectives": [
+        "the"
+      ]
+    },
+    "black": {
+      "archetypes": [
+        "hardcore",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the",
+        "of"
+      ]
+    },
+    "bleeding": {
+      "archetypes": [
+        "hardcore",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "bloody": {
+      "archetypes": [
+        "hardcore",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "breathtaking": {
+      "archetypes": [
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "corrupt": {
+      "archetypes": [
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "crazed": {
+      "archetypes": [
+        "mystical",
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "creepy": {
+      "archetypes": [
+        "mystical",
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "cruel": {
+      "archetypes": [
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "cute": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "dark": {
+      "archetypes": [
+        "mystical",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [
+        "est"
+      ],
+      "connectives": [
+        "the",
+        "of"
+      ]
+    },
+    "deathly": {
+      "archetypes": [
+        "mystical",
+        "romantic",
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [
+        "iest"
+      ],
+      "connectives": [
+        "the"
+      ]
+    },
+    "demonic": {
+      "archetypes": [
+        "mystical",
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "depressive": {
+      "archetypes": [
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "direful": {
+      "archetypes": [
+        "romantic",
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "eternal": {
+      "archetypes": [
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "ethereal": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the",
+        "of"
+      ]
+    },
+    "evil": {
+      "archetypes": [
+        "mystical",
+        "hardcore",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the",
+        "of"
+      ]
+    },
+    "exquisite": {
+      "archetypes": [
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [
+        "d"
+      ],
+      "connectives": [
+        "the",
+        "of"
+      ]
+    },
+    "fallen": {
+      "archetypes": [
+        "romantic",
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "ghastly": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [
+        "iest"
+      ],
+      "connectives": [
+        "the",
+        "of"
+      ]
+    },
+    "ghostly": {
+      "archetypes": [
+        "mystical",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [
+        "iest"
+      ],
+      "connectives": [
+        "the",
+        "of"
+      ]
+    },
+    "ghoulish": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": []
+    },
+    "gloomy": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "gothic": {
+      "archetypes": [
+        "mystical",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "gothik": {
+      "archetypes": [
+        "mystical",
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the",
+        "of"
+      ]
+    },
+    "grimey": {
+      "archetypes": [
+        "hardcore",
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "grotesque": {
+      "archetypes": [
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "haunting": {
+      "archetypes": [
+        "mystical",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "of"
+      ]
+    },
+    "inauspicious": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "industrial": {
+      "archetypes": [
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [
+        "iest"
+      ],
+      "connectives": [
+        "the"
+      ]
+    },
+    "jagged": {
+      "archetypes": [
+        "hardcore",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "little": {
+      "archetypes": [],
+      "prefix": [],
+      "suffix": [],
+      "connectives": []
+    },
+    "macabre": {
+      "archetypes": [
+        "mystical",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the",
+        "of"
+      ]
+    },
+    "magical": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "malicious": {
+      "archetypes": [
+        "mystical",
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "monochromatic": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "morbid": {
+      "archetypes": [
+        "romantic",
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "murderous": {
+      "archetypes": [
+        "hardcore",
+        "mystical",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "murky": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "mysterious": {
+      "archetypes": [
+        "mystical",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "necrophiliac": {
+      "archetypes": [
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "noir": {
+      "archetypes": [
+        "romantic",
+        "hardcore",
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the",
+        "of"
+      ]
+    },
+    "obnoxious": {
+      "archetypes": [
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "poetic": {
+      "archetypes": [
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "poignant": {
+      "archetypes": [
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "romantic": {
+      "archetypes": [
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "satanic": {
+      "archetypes": [
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": []
+    },
+    "shattered": {
+      "archetypes": [
+        "hardcore",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "sinister": {
+      "archetypes": [
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "skeletal": {
+      "archetypes": [
+        "mystical",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "smoke": {
+      "archetypes": [
+        "mystical",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [
+        "y"
+      ],
+      "connectives": [
+        "the",
+        "of"
+      ]
+    },
+    "sparkly": {
+      "archetypes": [
+        "mystical",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [
+        "iest"
+      ],
+      "connectives": [
+        "the"
+      ]
+    },
+    "spoopy": {
+      "archetypes": [],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a"
+      ]
+    },
+    "stealthy": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "stunning": {
+      "archetypes": [
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "of",
+        "the"
+      ]
+    },
+    "surreal": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "swampy": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [
+        "iest"
+      ],
+      "connectives": []
+    },
+    "tiny": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "unholy": {
+      "archetypes": [
+        "mystical",
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "vampiric": {
+      "archetypes": [
+        "mystical",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "void": {
+      "archetypes": [
+        "mystical",
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the",
+        "of"
+      ]
+    }
+  },
+  "nouns": {
+    "agony": {
+      "archetypes": [
+        "hardcore",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "asylum": {
+      "archetypes": [
+        "hardcore",
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "bat": {
+      "archetypes": [
+        "mystical",
+        "romantic"
+      ],
+      "prefix": [
+        "Mc",
+        "Von"
+      ],
+      "suffix": [],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "black": {
+      "archetypes": [
+        "mystical",
+        "romantic",
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [
+        "ness"
+      ],
+      "connectives": [
+        "the"
+      ]
+    },
+    "blackParade": {
+      "archetypes": [
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "blade": {
+      "archetypes": [
+        "romantic",
+        "mystical",
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the",
+        "a"
+      ]
+    },
+    "blood": {
+      "archetypes": [
+        "romantic",
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": []
+    },
+    "bride": {
+      "archetypes": [
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a"
+      ]
+    },
+    "catastrophe": {
+      "archetypes": [
+        "romantic"
+      ],
+      "prefix": [
+        "Black"
+      ],
+      "suffix": [],
+      "connectives": [
+        "the",
+        "a"
+      ]
+    },
+    "claw": {
+      "archetypes": [
+        "romantic",
+        "hardcore",
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [
+        "s"
+      ],
+      "connectives": [
+        "a"
+      ]
+    },
+    "corpse": {
+      "archetypes": [
+        "hardcore",
+        "mystical",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "corruption": {
+      "archetypes": [
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a"
+      ]
+    },
+    "countess": {
+      "archetypes": [
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "creep": {
+      "archetypes": [
+        "romantic",
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the",
+        "a"
+      ]
+    },
+    "dark": {
+      "archetypes": [
+        "mystical",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [
+        "ness"
+      ],
+      "connectives": [
+        "the"
+      ]
+    },
+    "darkling": {
+      "archetypes": [
+        "mystical",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the",
+        "a"
+      ]
+    },
+    "deathrocker": {
+      "archetypes": [
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "demon": {
+      "archetypes": [
+        "mystical",
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "depression": {
+      "archetypes": [
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a"
+      ]
+    },
+    "dragon": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a"
+      ]
+    },
+    "dusk": {
+      "archetypes": [
+        "romantic",
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "empress": {
+      "archetypes": [
+        "mystical",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "erlking": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "evil": {
+      "archetypes": [
+        "romantic",
+        "mystical",
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [
+        "ness"
+      ],
+      "connectives": [
+        "the",
+        "a"
+      ]
+    },
+    "fairy": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "fang": {
+      "archetypes": [
+        "romantic",
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "funeral": {
+      "archetypes": [
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "ghoul": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a"
+      ]
+    },
+    "gnome": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a"
+      ]
+    },
+    "goblin": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the",
+        "a"
+      ]
+    },
+    "godess": {
+      "archetypes": [
+        "mystical",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "goth": {
+      "archetypes": [
+        "mystical",
+        "romantic"
+      ],
+      "prefix": [
+        "goth"
+      ],
+      "suffix": [],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "gremlicorn": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the",
+        "a"
+      ]
+    },
+    "gremlin": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the",
+        "a"
+      ]
+    },
+    "grotesque": {
+      "archetypes": [
+        "hardcore"
+      ],
+      "prefix": [
+        "Burlesque"
+      ],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "hellFlame": {
+      "archetypes": [
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": []
+    },
+    "manticore": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "melancholy": {
+      "archetypes": [
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a"
+      ]
+    },
+    "mistress": {
+      "archetypes": [
+        "hardcore",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "monstrosity": {
+      "archetypes": [
+        "mystical",
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "necrophile": {
+      "archetypes": [
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "necrophilia": {
+      "archetypes": [
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a"
+      ]
+    },
+    "oblivion": {
+      "archetypes": [
+        "hardcore",
+        "romantic",
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a"
+      ]
+    },
+    "overlord": {
+      "archetypes": [
+        "romantic",
+        "mystical",
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "queen": {
+      "archetypes": [
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the",
+        "a"
+      ]
+    },
+    "raven": {
+      "archetypes": [
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "reaper": {
+      "archetypes": [
+        "mystical",
+        "hardcore"
+      ],
+      "prefix": [
+        "Mc",
+        "Grim"
+      ],
+      "suffix": [],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "rivet": {
+      "archetypes": [
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the",
+        "a"
+      ]
+    },
+    "rivethead": {
+      "archetypes": [
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the",
+        "a"
+      ]
+    },
+    "romance": {
+      "archetypes": [
+        "romantic"
+      ],
+      "prefix": [
+        "Black",
+        "Bloody",
+        "Chemical"
+      ],
+      "suffix": [],
+      "connectives": [
+        "the",
+        "a"
+      ]
+    },
+    "sanatarium": {
+      "archetypes": [
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a"
+      ]
+    },
+    "satan": {
+      "archetypes": [
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": []
+    },
+    "seaSerpent": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a"
+      ]
+    },
+    "shadow": {
+      "archetypes": [
+        "mystical",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "siren": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [
+        "ess"
+      ],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "skeleton": {
+      "archetypes": [
+        "romantic",
+        "mystical",
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "skull": {
+      "archetypes": [
+        "mystical",
+        "romantic",
+        "hardcore"
+      ],
+      "prefix": [
+        "LE"
+      ],
+      "suffix": [
+        "z",
+        "zzz"
+      ],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "smoke": {
+      "archetypes": [
+        "romantic",
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": []
+    },
+    "spookie": {
+      "archetypes": [],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a"
+      ]
+    },
+    "steam": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the"
+      ]
+    },
+    "unicorn": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the",
+        "a"
+      ]
+    },
+    "vamp": {
+      "archetypes": [
+        "romantic",
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "vampire": {
+      "archetypes": [
+        "romantic",
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "void": {
+      "archetypes": [
+        "romantic",
+        "mystical",
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the",
+        "a"
+      ]
+    },
+    "werewolf": {
+      "archetypes": [
+        "mystical"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "the",
+        "a"
+      ]
+    },
+    "witch": {
+      "archetypes": [
+        "mystical",
+        "romantic"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    },
+    "zombie": {
+      "archetypes": [
+        "hardcore"
+      ],
+      "prefix": [],
+      "suffix": [],
+      "connectives": [
+        "a",
+        "the"
+      ]
+    }
+  }
+}

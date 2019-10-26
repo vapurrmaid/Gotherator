@@ -1,0 +1,31 @@
+{
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "airbnb-typescript/base",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/typescript"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "root": true,
+  "rules": {
+    "import/prefer-default-export": "off",
+    "import/no-default-export": [
+      "error"
+    ],
+    "indent": "off",
+    "semi": "off",
+    "@typescript-eslint/indent": [
+      "error",
+      2
+    ],
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/semi": [
+      "error"
+    ]
+  }
+}

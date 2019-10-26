@@ -1,0 +1,35 @@
+{
+  "better-comments.highlightPlainText": true,
+  "editor.formatOnPaste": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "autoFix": true,
+      "language": "typescript"
+    },
+    {
+      "autoFix": true,
+      "language": "typescriptreact"
+    }
+  ],
+  "eslint.workingDirectories": [
+    "./src/Services/Words",
+  ],
+  "files.trimTrailingWhitespace": true,
+  "markdownlint.config": {
+    "default": true,
+    "MD013": {
+      "code_blocks": false,
+      "headings": false,
+      "line_length": 100,
+      "tables": false
+    }
+  },
+  "javascript.validate.enable": false,
+  "markdownlint.ignore": [
+    "node_modules/"
+  ],
+  "typescript.validate.enable": false
+}
