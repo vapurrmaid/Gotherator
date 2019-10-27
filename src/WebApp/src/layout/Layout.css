@@ -1,0 +1,46 @@
+/**
+ * CONTENTS
+ *
+ * Page-head............The main page header.
+ * Page-content.........The main page content.
+ * Page-foot............The main page footer.
+ */
+
+
+/*------------------------------------*\
+  #Page-head
+\*------------------------------------*/
+
+
+.page-head {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #Page-content
+\*------------------------------------*/
+
+
+.page-content {
+  flex: 1 0 auto;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #Page-foot
+\*------------------------------------*/
+
+
+.page-foot {
+  border-top: 1px solid violet;
+}
