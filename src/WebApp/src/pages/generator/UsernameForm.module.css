@@ -1,0 +1,96 @@
+/**
+ * CONTENTS
+ *
+ * Form............Username form component.
+ *
+ * UTILITIES
+ * Btn.............Common button styles.
+ * Hidden..........Helper for display none.
+ */
+
+
+/*------------------------------------*\
+  #Form
+\*------------------------------------*/
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+  .form__section {
+    border: none;
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .form__username {
+    border: none;
+    border-radius: 4px;
+    display: block;
+    font-family: 'Lora', sarif;
+    line-height: 40px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .form__filter {
+    line-height: 30px;
+    margin: 0 5px;
+    width: 100px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .form__filter {
+      display: block;
+      margin: 10px auto;
+      width: 90%;
+    }
+  }
+
+  .form__filter:focus {
+    outline-color: violet;
+  }
+
+  .form__submit {
+    border-radius: 5px;
+    line-height: 50px;
+    width: 300px;
+  }
+
+
+
+
+
+/*------------------------------------*\
+  #Btn
+\*------------------------------------*/
+
+
+.btn {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  font-family: 'Lora', sarif;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #Hidden
+\*------------------------------------*/
+
+
+.hidden {
+  display: none;
+}
