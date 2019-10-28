@@ -16,6 +16,7 @@
   ],
   "eslint.workingDirectories": [
     "./src/Services/Words",
+    "./src/WebApp"
   ],
   "files.trimTrailingWhitespace": true,
   "markdownlint.config": {

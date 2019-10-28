@@ -1,12 +1,24 @@
-import React from 'react';
-// import axios from 'axios';
+import React, { useState } from 'react';
+import axios from 'axios';
 
 import styles from './UsernameForm.module.css';
 
+interface UsernameResponse { // TODO
+  username: string;
+}
+
 export const UsernameForm: React.FC = () => {
+  const [userName, setUserName] = useState<string>('');
+
   const onSubmit = (e: React.FormEvent<HTMLFormElement>): void => {
     e.preventDefault();
-    console.log('GET');
+    axios.get<UsernameResponse>('/username/random').then((res) => {
+      if (res.data && res.data.username) {
+        setUserName(res.data.username);
+      }
+    }).catch((err) => {
+      console.log(err); // TODO
+    })
   }
 
   return (
@@ -14,7 +26,7 @@ export const UsernameForm: React.FC = () => {
 
       <fieldset className={styles.form__section}>
         <label className={styles.hidden} htmlFor="userName">Generated Value:</label>
-        <input className={styles.form__username} id="userName" readOnly />
+        <input className={styles.form__username} id="userName" readOnly value={userName} />
       </fieldset>
 
       <fieldset className={styles.form__section}>

@@ -1,6 +1,7 @@
 import { Request, Response, Router } from 'express';
 import { ControllerBase } from './ControllerBase';
 import { GrammarStream } from '../Domain/Service/GrammarStream';
+import { StreamFormatter } from '../Domain/Service/StreamFormatter';
 
 export class WordsController extends ControllerBase {
   public createRouter(): Router {
@@ -10,6 +11,10 @@ export class WordsController extends ControllerBase {
 
   public static getRandomGenUname(req: Request, res: Response): Send<Response> {
     const stream = new GrammarStream();
-    res.json(stream.value);
+    const streamFormatter = new StreamFormatter(stream.value);
+
+    return res.json({
+      username: streamFormatter.toUndecoratedString(),
+    });
   }
 }
