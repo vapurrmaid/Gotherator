@@ -14,7 +14,7 @@ export class WordsController extends ControllerBase {
     const streamFormatter = new StreamFormatter(stream.value);
 
     return res.json({
-      username: streamFormatter.toUndecoratedString(),
+      username: streamFormatter.toDecoratedString(),
     });
   }
 }
