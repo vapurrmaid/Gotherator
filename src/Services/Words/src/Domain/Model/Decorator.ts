@@ -12,8 +12,6 @@ export class Decorator {
     '+++',
   ];
 
-  public readonly value: string;
-
   public static decorateString(undecoratedString: string): string {
     const START_STRING = 1;
     const END_STRING = 1;
