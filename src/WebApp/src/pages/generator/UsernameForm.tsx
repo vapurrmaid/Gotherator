@@ -29,6 +29,7 @@ export const UsernameForm: React.FC = () => {
         <input className={styles.form__username} id="userName" readOnly value={userName} />
       </fieldset>
 
+      {/* TODO
       <fieldset className={styles.form__section}>
         <button
           className={`${styles.btn} ${styles.form__filter}`}
@@ -48,7 +49,7 @@ export const UsernameForm: React.FC = () => {
         >
           Filter 3
         </button>
-      </fieldset>
+      </fieldset>*/}
 
       <fieldset className={styles.form__section}>
         <button className={`${styles.btn} ${styles.form__submit}`} type="submit">Generate</button>
