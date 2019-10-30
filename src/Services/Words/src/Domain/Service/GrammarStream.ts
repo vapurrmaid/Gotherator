@@ -4,7 +4,6 @@ import { GrammarObject } from '../Model/GrammarObject';
 import { NounRepository } from '../Repository/NounRepository';
 import { PhraseFSM } from '../Model/PhraseFSM';
 
-
 export class GrammarStream {
   private stream: GrammarObject[];
 
