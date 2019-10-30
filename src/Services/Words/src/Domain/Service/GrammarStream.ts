@@ -1,4 +1,5 @@
 import { AdjectiveRepository } from '../Repository/AdjectiveRepository';
+import { Complement } from '../Model/Complement';
 import { Determiner } from '../Model/Determiner';
 import { GrammarObject } from '../Model/GrammarObject';
 import { NounRepository } from '../Repository/NounRepository';
@@ -21,7 +22,7 @@ export class GrammarStream {
       } else if (currentState === PhraseFSM.STATE_3_NOUN) {
         this.stream.push(NounRepository.getOne());
       } else if (currentState === PhraseFSM.STATE_4_COMPLEMENT) {
-        // retrieve Complement
+        this.stream.push(new Complement());
       }
     } while (fsm.currentState !== PhraseFSM.STATE_FINISH);
   }
