@@ -9,8 +9,6 @@ export class Determiner extends GrammarObject {
 
   private static readonly SOME = 'some';
 
-  private static readonly SUFFICIENT = 'sufficient';
-
   private static readonly THAT = 'that';
 
   private static readonly THE = 'the';
@@ -25,7 +23,6 @@ export class Determiner extends GrammarObject {
       Determiner.MY,
       Determiner.ONE,
       Determiner.SOME,
-      Determiner.SUFFICIENT,
       Determiner.THAT,
       Determiner.THE,
       Determiner.THIS,
