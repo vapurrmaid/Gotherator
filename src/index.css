@@ -1,0 +1,86 @@
+/**
+ * This file should only contain global styles and items that are not
+ * contained with the React App #root (see public/index.html).
+ *
+ * CONTENTS
+ *
+ * IMPORTS
+ * Normalize.css...............Browser reset, provided by CRA.
+ *
+ * BASE
+ * Universal Defaults..........Box-sizing reset.
+ * Body........................body defaults.
+ * Root.......................CRA App Root Styles
+ */
+
+/*------------------------------------*\
+  #IMPORTS
+\*------------------------------------*/
+
+/**
+ * CRA's import for normalize css. See the following link for more information:
+ *
+ * https://create-react-app.dev/docs/adding-css-reset
+ */
+
+@import-normalize;
+
+/*------------------------------------*\
+  #BASE
+\*------------------------------------*/
+
+/**
+ * The following two rules set all elements to compute their width and
+ * height in consideration with borders, paddings and margins.
+ */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/**
+ * Default colouring and font fallback.
+ */
+body {
+  background: black;
+  color: white;
+  font-family: "Lora", serif;
+}
+
+/**
+ * #root is the React App root element.
+ */
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 98vh;
+  margin: 0 auto;
+  max-width: 1280px;
+  min-width: 320px;
+  position: relative;
+  width: 85%;
+}
+
+@media screen and (max-width: 1024px) {
+  #root {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #root {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #root {
+    width: 100%;
+  }
+}
