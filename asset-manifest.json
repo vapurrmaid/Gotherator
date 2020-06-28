@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Gotherator/static/css/main.07600ed9.chunk.css",
+    "main.js": "/Gotherator/static/js/main.173f4077.chunk.js",
+    "main.js.map": "/Gotherator/static/js/main.173f4077.chunk.js.map",
+    "runtime-main.js": "/Gotherator/static/js/runtime-main.08dd3fc7.js",
+    "runtime-main.js.map": "/Gotherator/static/js/runtime-main.08dd3fc7.js.map",
+    "static/js/2.3e747c0d.chunk.js": "/Gotherator/static/js/2.3e747c0d.chunk.js",
+    "static/js/2.3e747c0d.chunk.js.map": "/Gotherator/static/js/2.3e747c0d.chunk.js.map",
+    "index.html": "/Gotherator/index.html",
+    "precache-manifest.2ae7f707b22ae8cdd44697f018314a2d.js": "/Gotherator/precache-manifest.2ae7f707b22ae8cdd44697f018314a2d.js",
+    "service-worker.js": "/Gotherator/service-worker.js",
+    "static/css/main.07600ed9.chunk.css.map": "/Gotherator/static/css/main.07600ed9.chunk.css.map",
+    "static/js/2.3e747c0d.chunk.js.LICENSE.txt": "/Gotherator/static/js/2.3e747c0d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.08dd3fc7.js",
+    "static/js/2.3e747c0d.chunk.js",
+    "static/css/main.07600ed9.chunk.css",
+    "static/js/main.173f4077.chunk.js"
+  ]
+}
