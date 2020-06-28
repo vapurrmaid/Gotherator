@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { stylesheet } from "typestyle";
-import { GrammarStream } from "./domain/service/GrammarStream";
-import { StreamFormatter } from "./domain/service/StreamFormatter";
+import { generateGrammarStream } from "./domain/service/GrammarStream";
+import { toDecoratedString } from "./domain/service/StreamFormatter";
 
 export const Generator: React.FC = () => {
   const [userName, setUserName] = useState<string>("");
@@ -24,9 +24,9 @@ export const Generator: React.FC = () => {
         className={styles.formSubmit}
         onClick={(e) => {
           e.preventDefault();
-          const stream = new GrammarStream();
-          const streamFormatter = new StreamFormatter(stream.value);
-          setUserName(streamFormatter.toDecoratedString());
+          const stream = generateGrammarStream();
+          const decorated = toDecoratedString(stream);
+          setUserName(decorated);
         }}
         type="submit"
       >

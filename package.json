@@ -58,7 +58,7 @@
   "lint-staged": {
     "*.{css,html,json,yaml,yml}": "prettier --write",
     "*.md": "prettier --prose-wrap=always --print-width=80 --write",
-    "*.ts,tsx": [
+    "*.{ts,tsx}": [
       "eslint --color",
       "prettier --write"
     ]

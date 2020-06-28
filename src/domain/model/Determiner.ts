@@ -1,22 +1,23 @@
+import { randNumber } from "../util/rng";
 import { GrammarObject } from "./GrammarObject";
 
+/**
+ * Note: This currently violate the Entity vs Repository design by being both.
+ * Other objects have to know to use a constructor on this object rather than
+ * a Repository.
+ */
 export class Determiner implements GrammarObject {
-  public readonly value: string;
+  readonly value: string;
 
   // private static readonly A = 'a'; // TODO as a(n)
 
+  // TODO - Repository
   private static readonly MY = "my";
-
   private static readonly ONE = "one";
-
   private static readonly SOME = "some";
-
   private static readonly THAT = "that";
-
   private static readonly THE = "the";
-
   private static readonly THIS = "this";
-
   private static readonly YOUR = "your";
 
   public constructor() {
@@ -30,9 +31,7 @@ export class Determiner implements GrammarObject {
       Determiner.THIS,
       Determiner.YOUR,
     ];
-
-    const randomInt = Math.floor(Math.random() * options.length); // TODO via Repository
-
+    const randomInt = randNumber(options.length);
     this.value = options[randomInt];
   }
 }

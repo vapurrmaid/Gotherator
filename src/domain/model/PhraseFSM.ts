@@ -1,3 +1,5 @@
+import { randNumber } from "../util/rng";
+
 type PhraseFSMState =
   | "START"
   | "1_DETERMINER"
@@ -53,7 +55,7 @@ export class PhraseFSM {
   }
 
   private static selectStateFrom(stateOpts: PhraseFSMState[]): PhraseFSMState {
-    const randomInt = Math.floor(Math.random() * stateOpts.length);
+    const randomInt = randNumber(stateOpts.length);
     return stateOpts[randomInt];
   }
 

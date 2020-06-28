@@ -1,16 +1,9 @@
 import wordsJson from "../../data/words.json";
 import { Adjective } from "../model/Adjective";
+import { randNumber } from "../util/rng";
 
-export class AdjectiveRepository {
-  private static readonly adjectives: string[] = AdjectiveRepository.parseNouns();
-
-  private static parseNouns(): string[] {
-    const { adjectives } = wordsJson;
-    return Object.keys(adjectives);
-  }
-
-  public static getOne(): Adjective {
-    const rand = Math.floor(Math.random() * this.adjectives.length);
-    return new Adjective(this.adjectives[rand]);
-  }
+export function getOneAdjective(): Adjective {
+  const adjectives = Object.keys(wordsJson.adjectives);
+  const rand = randNumber(adjectives.length);
+  return new Adjective(adjectives[rand]);
 }

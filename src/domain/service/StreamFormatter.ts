@@ -1,16 +1,12 @@
 import { Decorator } from "../model/Decorator";
 import { GrammarObject } from "../model/GrammarObject";
 
-export class StreamFormatter {
-  public constructor(private readonly stream: GrammarObject[]) {}
+export function toDecoratedString(stream: GrammarObject[]): string {
+  return Decorator.decorateString(toUndecoratedString(stream));
+}
 
-  public toDecoratedString(): string {
-    return Decorator.decorateString(this.toUndecoratedString());
-  }
-
-  public toUndecoratedString(): string {
-    return this.stream
-      .reduce((prev: string, current: GrammarObject) => `${prev} ${current.value}`, "")
-      .trim();
-  }
+export function toUndecoratedString(stream: GrammarObject[]): string {
+  return stream
+    .reduce((prev: string, current: GrammarObject) => `${prev} ${current.value}`, "")
+    .trim();
 }
