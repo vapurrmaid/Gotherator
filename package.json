@@ -2,6 +2,7 @@
   "name": "gotherator",
   "version": "0.2.2",
   "private": true,
+  "homepage": "https://vapurrmaid.ca/Gotherator",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
