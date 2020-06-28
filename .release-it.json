@@ -1,0 +1,15 @@
+{
+  "hooks": {},
+  "git": {
+    "commitArgs": "--gpg-sign",
+    "commitMessage": ":rocket: v${version}",
+    "tagArgs": "--sign"
+  },
+  "github": {
+    "release": true,
+    "tokenRef": "RELEASE_IT_GITHUB_TOKEN"
+  },
+  "npm": {
+    "publish": false
+  }
+}
