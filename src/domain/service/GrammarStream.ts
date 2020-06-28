@@ -27,7 +27,7 @@ export class GrammarStream {
     } while (fsm.currentState !== PhraseFSM.STATE_FINISH);
   }
 
-  public get value() {
+  get value(): GrammarObject[] {
     return Array.from(this.stream); // provide a copy to maintain immutability
   }
 }

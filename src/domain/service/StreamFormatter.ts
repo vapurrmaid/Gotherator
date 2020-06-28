@@ -10,10 +10,7 @@ export class StreamFormatter {
 
   public toUndecoratedString(): string {
     return this.stream
-      .reduce(
-        (prev: string, current: GrammarObject) => `${prev} ${current.value}`,
-        ""
-      )
+      .reduce((prev: string, current: GrammarObject) => `${prev} ${current.value}`, "")
       .trim();
   }
 }

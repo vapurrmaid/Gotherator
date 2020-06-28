@@ -4,11 +4,11 @@
   "private": true,
   "homepage": "https://vapurrmaid.ca/Gotherator",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "release": "yarn build && release-it"
+    "build": "yarn lint && prettier --check src && react-scripts build",
+    "format": "prettier --write src",
+    "lint": "eslint --color --ext=ts,tsx src",
+    "release": "yarn build && release-it",
+    "start": "react-scripts start"
   },
   "dependencies": {
     "react": "^16.13.1",
@@ -23,15 +23,20 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
     "@vapurrmaid/prettier-config": "^0.1.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.4",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
     "prettier-plugin-organize-imports": "^1.1.0",
     "react-scripts": "3.4.1",
     "release-it": "^13.6.3",
     "typescript": "~3.7.2"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -43,6 +48,19 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{css,html,json,yaml,yml}": "prettier --write",
+    "*.md": "prettier --prose-wrap=always --print-width=80 --write",
+    "*.ts,tsx": [
+      "eslint --color",
+      "prettier --write"
     ]
   }
 }
