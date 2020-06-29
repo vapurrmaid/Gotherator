@@ -1,8 +1,16 @@
+/*
+  We need probabilities that account for nextSymbol and endSymbol.
+  For example, some strings should always be wrapped by start and end.
+  Sometimes we want to randomly generate a sequence, but there are probabilities
+  for which the next sequence character should be.
+*/
+
 export class Decorator {
   private static readonly startDecorators: string[] = [
     "~",
     "~~",
     "^",
+    "^^",
     "~*",
     "_",
     "__",
